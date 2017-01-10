@@ -1,0 +1,142 @@
+a{text-decoration: none;color: #888888;}
+.clear{zoom: 1;}
+.clear::after{
+      content: '';
+      display: block;
+      line-height: 0;
+      font-size: 0;
+      clear: both;
+      visibility: hidden;
+
+}
+
+
+/***************************头部*********************************/
+#cheader{position: relative; 
+         background-color: #eeeeef;}
+#cheader .cheaderBar-back a{
+              background: url(../img/logo.png) no-repeat -23px 0;
+              display: inline-block;
+              min-width: 18px;
+              height: 21px;
+              background-size: 200px 200px;
+              margin-top: 5px;
+              margin-left: 5px;
+}
+    #cheader .headbody {width: 90%;
+                        height: 21px;
+                        font-size:20px;
+                        height:30px;
+                        line-height: 30px;
+                        text-align: center;}
+                    
+ #cheader .clanding{
+             background: url(../img/logo.png) no-repeat -60px 0;
+             min-width: 24px;
+             height: 21px;
+             background-size: 200px 200px;
+             margin-top: 5px;
+             margin-right: 5px;
+                }
+
+                /**********************登陆购物车****************************************************/
+#cartlogin{
+         display: block;
+         margin-top: 50px;
+    
+        }
+ .cimg {
+              background: url(../img/cartloin.png) no-repeat 0 0;
+              display: inline-block;
+              width: 10%;
+              height: 31px;
+              background-size: 100%;
+              margin-left: 30px;
+           
+            
+            
+}
+   .clogin {width: 60%;
+                        height: 35px;
+                        font-size:12px;
+                        height:31px;
+                        line-height: 31px;
+                        text-align: center;
+                        display: inline-block;
+                      
+                     }
+                    
+ .btn{
+             display: inline-block;
+             height: 31px;
+             margin-right: 5px;
+             width:10%;
+            background-color: red;
+            color: white;
+            line-height: 31px;
+           text-align: center;
+           border-radius: 3px;
+           border-width: 2px;
+                }
+/*<!--*************************今日福利*************************************************************-->*/
+.benefit{
+       position: relative;
+       display: -webkit-box;
+       margin: 14px 5px;
+       background-color:#eeeeef;
+      width: 100%;
+      height: 26px;
+     font-size: 14px;
+    -webkit-box-pack: center;
+    opacity: 0.8;
+    line-height: 26px;
+}
+.benefit .benefit-icon{
+    background: url(../img/benefit.icon.png) no-repeat;
+    background-size: 13px 13px;
+    width: 13px;
+    height: 13px;
+   line-height: 13px;
+   margin-top: 6px;
+    text-align: center;
+    display: block;
+    margin-right:6px;
+}
+ 
+.benefit .after
+{
+    content: "";
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    background-color: #cbcbcb;
+    /*-webkit-transform: scaleY(0.5);*/
+    z-index: 1;
+}
+
+  /********************<!--福利神眷，整点秒杀-->***************************/
+  .benefit-body{
+      width: 100%;
+      background-color: #eeeeef;
+    overflow: hidden;
+      
+  }
+.benefit-body li{
+    display: inline-block;
+    width: 49.5%;
+    background-color: white;
+    
+}
+.benefit-left{float: left;}
+.benefit-body li img{height: 68px;
+                     width: 68px;
+                     margin-left: 80px;}
+.benefit-right{float: right;}
+.benefit-top{margin-left:30px;
+             color: red;
+             font-size: 16px;
+             display: block;
+             margin-top: 10px;}

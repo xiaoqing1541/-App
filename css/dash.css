@@ -1,0 +1,103 @@
+#ipt1{margin-top: 70px;}
+#qq{margin-left:33%;}
+#imgZ{width: 20%;height: auto;}
+.item-input{height: 47px;}
+#mlogo{
+    width: 100%;
+}
+#mlogo .alogo{
+   
+    height: auto;
+  color:red;
+  font-size:20px;
+display: inline-block;
+}
+
+#pslogi{
+    width: 100%;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-right: 10px;
+
+}
+
+
+#pslogi .psd{
+  
+    display: inline-block;
+    float: left;
+   
+}
+#pslogi .loging{
+    
+     display: inline-block;
+     float: right;
+     margin-right: 2px;
+   
+}
+#otherlogin{
+    width: 100%;
+    overflow: hidden;
+      
+}
+#otherlogin .otherlogin-left{
+     width: 35%;
+    border-top: 1px solid #eeeeee;
+    height: 1px;
+     float: left;
+     margin-top: 6px;
+     /*margin-right: 10px;*/
+
+}
+#otherlogin .otherlogin-middle{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+     width: 30%;
+  
+    
+}
+#otherlogin .otherlogin-right{
+    width: 35%;
+    border-top: 1px solid #eeeeee;
+    height: 1px;
+    float: right;
+    margin-top: 6px;
+    /*margin-left: 10px;*/
+    
+}
+
+#weqq{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 46%;
+    margin-right:30%;
+  }
+#weqq .qq{
+     float: left;
+    display: inline-block;
+   }
+      #weqq .qq .sqq{
+    background: url(../img/weqq.png) no-repeat 0 -128px;
+    width: 22px;
+    min-height: 26px;
+   background-size: 22px 250px;
+   display: inline-block;
+   margin-right: 5px;
+   
+    }
+
+    #weqq .wechat{
+    float: left;
+    display: inline-block;
+   }
+      #weqq .wechat .swechat{
+    background: url(../img/weqq.png) no-repeat 0 -150px;
+    width: 22px;
+    min-height: 26px;
+   background-size: 22px 250px;
+   display: inline-block;
+   
+    }

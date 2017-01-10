@@ -1,0 +1,79 @@
+<!--view-title="Dashboard"-->
+<ion-view view-title="Dashboard" scroll="true">
+  <!--头部-->
+  <div class="bar bar-header bar-stable">
+    <a class="button button-clear" href="#/tab/cart">
+      <i class="icon ion-chevron-left"></i>
+    </a>
+    <h1 class="title"><strong>京东登陆</strong></h1>
+  </div>
+
+  <ion-content style="margin-top:0;">
+<!--用户名/密码/手机已验证-->
+    <div class="list list-inset list-stable" id="ipt1">
+      <li class="item item-input ">
+        <input type="text" placeholder="用户名/密码/手机已验证">
+      </li>
+    </div>
+<!--输入密码-->
+    <div class="list list-inset list-stable">
+      <li class="item item-input " id="pasd" style="padding:5px;">
+        <input type="password" placeholder="输入密码">
+        <label class="toggle toggle-assertive">
+            <input type="checkbox" placeholder="abc">
+             <div class="track">
+              abc<div class="handle"></div>
+             </div>
+         </label>
+      </li>
+    </div>
+    <!--请输入验证码-->
+    <div class="list list-inset list-stable">
+      <li class="item item-input">
+        <input type="text" placeholder="请输入验证码">
+        <img src="./img/Z.jpg" id="imgZ">
+      </li>
+    </div>
+
+    <button class="button button-block button-stable" style="width:96%;margin:0 auto;">
+          登陆
+   </button>
+    <br>
+    <div id="mlogo">
+      <a href="#" class="alogo">
+        <i class="icon ion-ios-checkmark"></i>
+      </a>
+      一个月内免登
+    </div>
+    <!--找回密码 快速注册-->
+    <div id="pslogi">
+      <div class="psd">
+        <i class="icon ion-ios-locked-outline"></i> 找回密码
+      </div>
+      <div class="loging" style="margin-right:5px;">
+        <i class="icon ion-android-clipboard"></i> 快速注册
+      </div>
+    </div>
+    <br>
+    <!--其他登陆方式-->
+    <div id="otherlogin">
+      <div class="otherlogin-left ">
+      </div>
+      <div class="otherlogin-middle">其他登陆方式</div>
+      <div class="otherlogin-right">
+      </div>
+    </div>
+    <div id="weqq"> 
+      
+         <div class="qq">
+          <span class="sqq"></span>
+          <h5>QQ</h5>
+         </div>
+
+         <div class="wechat">
+         <span class="swechat"></span>
+          <h5>微信</h5>
+         </div>
+    </div>
+  </ion-content>
+</ion-view>

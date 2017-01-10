@@ -1,0 +1,57 @@
+<ion-view view-title="home">
+  <!--头部-->
+  <div class="bar bar-header bar-light" id="sheader">
+    <div class="sheaderBar-logo clear">
+      <a href="#/tab/home"></a>
+    </div>
+    <div class="ssearch">
+      <div class="ssearch1">
+        <a href="#" class=""></a>
+        <input type="text" name="" value="把年货带回家">
+      </div>
+    </div>
+    <a href="#" class="slanding">
+      <span></span>
+    </a>
+  </div>
+  <!--侧栏navside-->
+  <nav id="navside">
+    <ul id="ulSide">
+      
+      <li ng-class="$index==0?'nav-current':'nav-blur'" ng-repeat="item in categoryData" ng-click="categoryLeftClick($event);getCategoryDetailData(item.typeNumber)">
+        {{item.name}}
+      </li>
+    </ul>
+  </nav>
+  <ion-content id="product1">
+    <!--banner-->
+    <div class="pg2banner  clear">
+      <img src="./img/pg2banner.jpg" alt="">
+    </div>
+    <!--热卖品类hostSell-->
+    <div class="hostSell clear">
+      
+      <div class="hostTitle clear">
+        <span class="sp1"><strong>热卖品类</strong></span>
+      </div>
+      <div class="hostBody">
+        <li class="hostBody-list" ng-repeat="item in categoryDetailData" ui-sref="goodsList({typeNumber:{{item.typeNumber}}})">
+          <img src="{{item.src}}" alt="">
+          <span>{{item.name}}</span>
+        </li>
+      </div>
+
+      <!--冬季新品-->
+      <div class="clear hostTitle">
+        <span class="sp1"><strong>冬季新品</strong></span>
+      </div>
+      <div class="hostBody">
+        <li class="hostBody-list" ng-repeat="item in categoryDetailData">
+          <img data-ui-lazyload="{{item.src}}" alt="">
+          <span>{{item.name}}</span>
+        </li>
+      </div>
+
+    </div>
+  </ion-content>
+</ion-view>

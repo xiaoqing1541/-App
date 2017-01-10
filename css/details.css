@@ -1,0 +1,112 @@
+/*头部*/
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+#dheader{
+    position: relative;
+    background-color: #eeeeee;
+    height: 44px;
+    z-index: 20;
+   }
+
+#dheader .dheader-left  div span{
+      background: url(../img/logo.png) no-repeat -25px 0;
+     background-size: 200px 200px;
+    min-width: 18px;
+    height: 21px;
+    
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top:10px;
+    
+}
+#dheader  .dheader-middle {
+    width: 90%;
+    display: inline-block;
+}
+#dheader  .dheader-middle  span{
+     position: absolute;
+     top: 2px;
+     left: 190px;
+     right: 190px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+#dheader .dheader-right span{
+    display: inline-block;
+    background: url(../img/logo.png) no-repeat -60px 0;
+    background-size: 200px 200px;
+    min-width: 20px;
+    height: 18px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.details-content{
+    margin-top: 43px;
+}
+/*****************产品展示*************************************/
+/*#dview{
+    width: 100%;
+    height: 320px;
+    border-bottom: 1px solid #dfdfdf;
+}*/
+
+
+/*#dview img{
+    width: 100%;
+    height: auto;
+} */
+
+#dview{
+    width: 100%;
+    height: auto;
+}
+#dview .swiper-slide{
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+}
+#dviewText{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgba(0,0,0,.3);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    border-radius: 25px;
+    font-weight: 700;
+  
+}
+#dviewText .swiper-pagination{
+    bottom: 0;
+}
+/*.swiper-pagination-progressbar {
+    background-color:navy;
+    opacity: 0;}*/

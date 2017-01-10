@@ -1,0 +1,332 @@
+/* Empty. Add your own CSS if you like */
+/************************header*search**************************************************************/
+#header{
+      position: relative;
+      background-color:transparent;
+}
+ #headerBar-bg{
+     width: 100%;
+    height: 44px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: red;
+      opacity: 0.8;
+}
+#header .headerBar-logo{
+    display: inline-block;
+    min-width: 56px;
+    height: 21px;
+    background: url(../img/logo.png) no-repeat 0 -110px;
+    background-size: 200px 200px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#header .search{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 24px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+#header .search .search1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    width: auto;
+    height: 24px;
+    background-color: white;
+    border-radius: 12px;
+    padding-right: 10px;
+}
+#header .search .search1 a{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/logo.png) no-repeat -60px -109px;
+    background-size: 200px 200px;
+    margin-left: 5px;
+    margin-top: 3px;
+    float: left;
+}
+#header .search .search1 input{
+    /*width: 100%;*/
+    height: 24px;
+    float: left;
+    background: none;
+    font-size: 12px;
+    color: #ccc;
+    margin-left: 3px;
+    padding: 0;
+}
+#header .landing{
+    min-width: 30px;
+    height: inherit;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    margin-right: 5px;
+}
+#header .landing span{
+    font-size: 15px;
+    color: white;
+    line-height: 24px;
+}
+
+ /*********************banner轮播*******************************************************************************************************/
+ .ion-record{color:powderblue;}
+
+
+ #myswiper{
+        width: 100%;
+        height: 100%;
+    }
+    
+#myswiper .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: inline-block;
+          width: 100%;
+           height: 100%;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+/*************************************************功能导航**************************************************/
+
+#nav{
+width: 100%;
+background-color: #fff;
+overflow: hidden;
+padding-left: 5%;
+/*padding-right: 5%;*/
+
+/*box-shadow: 0 1px 1px #ebebeb;*/
+}
+#nav span{
+   float: left;
+    width: 25%;
+    height:50%;
+    padding-right: 5%;
+   }
+#nav span img{
+         width: 100%;
+         height: auto;
+}
+#nav span h6{
+    
+   font-size: 16px;
+    width: 100%;
+    text-align: center;
+    margin-top:0px;
+   
+}
+
+/**************************************京东头条**********************************************************************/
+.toutiao{height: 30px;width: 100%;}
+.toutiao img{width: 25%;height:auto;float: left;padding-left: 20px;}
+#touSwiper{height:30px;width: 75%; }
+#touSwiper  .swiper-slide {
+        text-align: center;
+        width: 200px; 
+        height: 30px;
+        line-height: 30px;
+        background: #fff;
+        display:block;
+        float: left;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+/************************************逛购轮播*********************************/
+ #goSwiper{
+        width: 100%;
+        height: 100%;
+    }
+    
+#goSwiper .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: inline-block;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+
+/*<!--***************************掌上秒杀spike-->*********************************************************************************/
+#spike{  margin-top:  5px;
+         width: 100%;}
+.spike-top{}
+#spike .spike-top span{background: url(../img/logo.png) no-repeat -76px -110px;
+               background-size: 200px 200px;
+               width: 30px;
+               height: 20px;
+               display: inline-block;}
+ #spike .spike-top h4{display: inline-block;
+               color: red;
+               height: 20px;
+               line-height: 20px;}
+ #spike .spike-time{display:inline-block;
+             color: white;
+             background-color: #666666;}
+ #spike .more{display: inline-block;
+      margin-right: 5px;
+      float: right;}
+ #spike .spike-bottom{
+                     overflow: hidden;
+                     width: 100%;
+                    padding-left: 5%;
+                    padding-right: 0;
+                    }
+ #spike .spike-bottom li{float: left;
+                         width: 33%;
+                         height:100%;
+                }
+ #spike .spike-bottom li img{ height: auto;
+                             border-right: 1px solid #cccccc;
+                             width: 100%;}
+ #spike .oldPrice{display: block;
+                  text-align: center;
+ 
+           }
+ #spike .newPrice{display: block;
+                color: red;
+                 text-align: center;
+ 
+         }
+
+/******************************************************主题街*****************************************/
+.title-footer{border-left: 4px solid red;
+              margin-left: 10px;
+              padding-left: 5px;
+              width: 100%;}
+.title-footer1{border-top: 1px solid #cccccc;
+              width: 100%;
+              border-bottom: 1px solid #cccccc;
+              padding-right: 0;}
+.footer1-left{width:49%;display: inline-block;}
+.footer1-left img{height: auto;width:100%;}
+
+
+.footer1-right{width: 50%;display: inline-block;}
+
+
+.img-top{width: 100%;
+         border-left: 1px solid #cccccc;
+         border-right: 1px solid #cccccc;
+         border-bottom: 1px solid #cccccc;}
+.img-top img{height:auto;
+            width: 100%;}
+ 
+.img-bottom{
+          width: 100%;
+          border-left: 1px solid #cccccc;
+          border-right: 1px solid #cccccc;}
+.img-bottom img{height: auto;width: 100%;}
+
+ /*<!**********************************************--主题街轮播-->****************************************************************************************/
+
+#footerSlide{
+        width: 100%;
+        height: 100%;
+    }
+   .swiper-slide img{width: 100%;}
+#footerSlide .swiper-slide {
+       margin-top: 20px;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: inline-block;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+
+     /***********************************<!--超值购-->****************************************************************/
+.valueGo{ border-left: 4px solid red;
+          margin-left: 10px;
+          padding-left: 5px;}
+.valueGo1{border-top: 1px solid #cccccc;
+         width: 100%;
+        border-bottom: 1px solid #cccccc;}
+.valueGo1-left{width:49%;
+              display: inline-block;}
+.valueGo1-left img{height: auto;
+                 width:100%;}
+
+
+.valueGo1-right{width: 49%;
+               display: inline-block;}
+
+
+.valueGo1-top{width: 100%;
+             border-left: 1px solid #cccccc;
+             border-right: 1px solid #cccccc;
+             border-bottom: 1px solid #cccccc;}
+.valueGo1-top img{height:auto;
+                 width: 100%;}
+ 
+.valueGo1-bottom{width: 100%;
+              border-left: 1px solid #cccccc;
+              border-right: 1px solid #cccccc;}
+.valueGo1-bottom img{height: auto;
+                     width: 100%;}
+
+/*********************回到头顶部***********************************************/
+.back-top{
+    background: url(../img/backtop.png) no-repeat; 
+    background-size: 35px 35px; 
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    bottom: 10%;
+    right: 3%;
+    z-index: 100;
+    
+}
